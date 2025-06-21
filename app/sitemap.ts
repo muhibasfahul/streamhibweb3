@@ -2,6 +2,9 @@
 
 import { MetadataRoute } from 'next'
 
+// Add this for static export compatibility
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://streamhib.com' // Ganti dengan domain Anda jika berbeda
 
